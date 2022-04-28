@@ -54,7 +54,7 @@ def price_okx_api(coin_name):
 #     print(response)
 
 
-# login("15de4839-7041-4be6-bc3b-084ff25a4077", "Headofsergo16$", dateString, "8586E6157E565D8A8F949FAB9A3890FE")
+
 
 def doPost(e):
     cont = requests.get(e.postData.contents).json()
